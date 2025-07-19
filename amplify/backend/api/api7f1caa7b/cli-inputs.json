@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/order-management": {
+      "name": "/order-management",
+      "lambdaFunction": "OrderManagementHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

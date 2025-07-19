@@ -1,0 +1,43 @@
+{
+  "api": {
+    "api7f1caa7b": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "OrderManagementHandler"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "OrderManagementHandler": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_OrderManagementHandler_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "OrderManagementHandler"
+        }
+      ]
+    },
+    "AMPLIFY_function_OrderManagementHandler_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "OrderManagementHandler"
+        }
+      ]
+    }
+  }
+}

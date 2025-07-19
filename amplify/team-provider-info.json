@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ordermanagement-dev-2302f-authRole",
+      "UnauthRoleArn": "arn:aws:iam::982081075959:role/amplify-ordermanagement-dev-2302f-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::982081075959:role/amplify-ordermanagement-dev-2302f-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-ordermanagement-dev-2302f-deployment",
+      "UnauthRoleName": "amplify-ordermanagement-dev-2302f-unauthRole",
+      "StackName": "amplify-ordermanagement-dev-2302f",
+      "StackId": "arn:aws:cloudformation:us-east-1:982081075959:stack/amplify-ordermanagement-dev-2302f/20b42bc0-64a7-11f0-ab75-0affd550d557",
+      "AmplifyAppId": "d1cxaeglo2qzsf"
+    },
+    "categories": {
+      "function": {
+        "OrderManagementHandler": {
+          "deploymentBucketName": "amplify-ordermanagement-dev-2302f-deployment",
+          "s3Key": "amplify-builds/OrderManagementHandler-38637644306e726d2b4e-build.zip"
+        }
+      },
+      "api": {
+        "api7f1caa7b": {}
+      }
+    }
+  }
+}
