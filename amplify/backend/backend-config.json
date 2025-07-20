@@ -22,6 +22,11 @@
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
     },
+    "ordermanagementCommonLayer": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "LambdaLayer"
+    },
     "ordermanagementordermanagementLayer": {
       "build": true,
       "providerPlugin": "awscloudformation",
