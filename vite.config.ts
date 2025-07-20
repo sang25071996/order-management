@@ -4,4 +4,10 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  build: {
+    outDir: 'dist', // Output directory matches amplify.yml
+    rollupOptions: {
+      input: './index.html', // Explicitly set index.html as the entry point
+    },
+  },
 })
