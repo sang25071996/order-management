@@ -48,7 +48,7 @@ app.use(function(req, res, next) {
  */
 app.get('/order-management', function(req, res) {
   // Add your code here
-  res.json({success: 'get call succeed!', url: req.url});
+  res.json({success: 'get call succeed! hello api', url: req.url});
 });
 
 app.get('/order-management/*', function(req, res) {

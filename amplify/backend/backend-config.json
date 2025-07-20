@@ -18,8 +18,27 @@
   "function": {
     "OrderManagementHandler": {
       "build": true,
+      "dependsOn": [
+        {
+          "attributes": [
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "ordermanagementordermanagementLayer"
+        }
+      ],
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
+    },
+    "ordermanagementCommonLayer": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "LambdaLayer"
+    },
+    "ordermanagementordermanagementLayer": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "LambdaLayer"
     }
   },
   "parameters": {

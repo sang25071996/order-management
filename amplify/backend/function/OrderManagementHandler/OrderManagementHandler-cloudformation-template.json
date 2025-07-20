@@ -15,6 +15,10 @@
     },
     "s3Key": {
       "Type": "String"
+    },
+    "functionordermanagementordermanagementLayerArn": {
+      "Type": "String",
+      "Default": "functionordermanagementordermanagementLayerArn"
     }
   },
   "Conditions": {
@@ -79,7 +83,11 @@
           ]
         },
         "Runtime": "nodejs22.x",
-        "Layers": [],
+        "Layers": [
+          {
+            "Ref": "functionordermanagementordermanagementLayerArn"
+          }
+        ],
         "Timeout": 25
       }
     },
