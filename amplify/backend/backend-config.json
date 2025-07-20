@@ -27,23 +27,5 @@
       "providerPlugin": "awscloudformation",
       "service": "LambdaLayer"
     }
-  },
-  "parameters": {
-    "AMPLIFY_function_OrderManagementHandler_deploymentBucketName": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "OrderManagementHandler"
-        }
-      ]
-    },
-    "AMPLIFY_function_OrderManagementHandler_s3Key": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "OrderManagementHandler"
-        }
-      ]
-    }
   }
 }
