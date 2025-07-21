@@ -25,6 +25,15 @@
           ],
           "category": "function",
           "resourceName": "ordermanagementordermanagementLayer"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn",
+            "StreamArn"
+          ],
+          "category": "storage",
+          "resourceName": "product"
         }
       ],
       "providerPlugin": "awscloudformation",
@@ -57,6 +66,12 @@
           "resourceName": "OrderManagementHandler"
         }
       ]
+    }
+  },
+  "storage": {
+    "product": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
     }
   }
 }
