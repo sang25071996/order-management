@@ -69,6 +69,10 @@
     }
   },
   "storage": {
+    "dynamob724d799": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    },
     "product": {
       "providerPlugin": "awscloudformation",
       "service": "DynamoDB"
